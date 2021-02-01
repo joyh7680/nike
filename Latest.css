@@ -1,0 +1,99 @@
+/* Main Visual CSS */
+
+.main_visual_wrap { width: 100%; padding: 0 48px;}
+.main_visual { width: 100%; padding: 0 8px; display: flex;}
+
+.main_visual_1 { width: 50%; height: 900px; background-image: url(../img/nike-just-do-it-1.png); padding: 36px; display: flex; flex-direction: column; justify-content: flex-end;
+}
+.main_visual_1:hover { cursor: pointer;}
+
+.main_visual_2 { width: 50%; height: 900px; background-image: url(../img/nike-just-do-it-2.png);
+padding: 36px; display: flex; flex-direction: column; justify-content: flex-end; align-items: flex-end;
+}
+
+.button_shop_white {display: block;
+    width: 95px; height: 40px; background-color: white; color:rgb(17,17,17); border-radius: 20px; text-align: center; line-height: 40px; 
+   border: none;}  
+
+.button_shop_white:hover { background-color: rgba(255,255,255,0.6);}
+
+.button_shop_black { display: block;
+   width: 95px; height: 40px; background-color: rgb(17,17,17); color:white; border-radius: 20px; text-align: center; line-height: 40px; border: none;}  
+
+.button_shop_black:hover { background-color: rgba(0,0,0,0.6);}
+
+/* Just In CSS */
+
+.just_in_wrap { width: 100%; padding: 84px 48px 0; }
+
+.just_in { width: 100%; padding: 0; display: flex; }
+
+.just_in_1 { width: calc(50% - 16px); height: 700px; background-image: url(../img/just_in_1.jpg); margin: 0 8px; }
+
+.just_in_1_a { display: block; width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: flex-end; padding: 36px; }
+
+.just_in_2 { width: calc(50% - 16px); height: 700px; background-image: url(../img/just_in_2.jpg); margin: 0 8px;}
+
+.just_in_2_a { display: block; width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: flex-end; padding: 36px; }
+
+/* Featured Footwear CSS */
+
+.footwear_wrap { width: 100%; padding: 84px 48px 0;}
+.footwear { width: 100%; padding: 0 8px; display: flex;}
+
+.footwear_1 { width: 100%; height: 700px; background-image: url(../img/footwear_1.jpg); padding: 36px; display: flex; flex-direction: column; justify-content: flex-end;
+}
+.footwear_1:hover { cursor: pointer;}
+
+
+/* Trending Now */
+
+.trending_now_wrap { width: 100%; padding: 84px 48px; }
+.trending_now { width: 100%; display: flex;}
+
+.trending_now_1 { width:calc(50% - 16px); height: 700px; margin: 0 8px; background-image: url(../img/trending_now_1.jpg);}
+
+.trending_now_1_a {  display: block; width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: flex-end; padding: 36px;}
+
+/* .trending_now_1_a:hover { background-color: rgba(0,0,0,0.2);} */
+
+.trending_now_2 { width:calc(50% - 16px); height: 700px; margin: 0 8px; background-image: url(../img/trending_now_2.jpg);}
+
+.trending_now_2_a {  display: block; width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: flex-end; padding: 36px;}
+
+/* .trending_now_2_a:hover { background-color: rgba(0,0,0,0.2);} */
+
+/* Gear for Your Golas CSS */
+
+.gear_wrap { width: 100%; padding: 84px 48px; }
+.gear { width: 100%; display: flex;}
+.gear li { width: calc(33.33333% - 16px); margin: 0 8px;}
+.gear li img { width: 100%; margin:0 0 16px;}
+
+/* The Latest & Greatest - Best */
+
+.best_wrap { width: 100%; padding:84px 0 0 ;}
+.best_scroll_wrap { width: 100%; overflow: scroll; padding: 0 0 20px 48px;}
+.best { width: 200%; display: flex; }
+.best li { width: calc(16.66667% - 16px); height: auto; margin: 0 8px; }
+.best li a {display: block; width: 100%; height: 100%;}
+
+.best li img {width: 100%; vertical-align: middle; }
+.best li div { display: flex; justify-content: space-between; padding: 12px 16px 0 0; }
+.best li div h4 { font-size: 16px; color:rgb(17,17,17);}
+.best li div p { color: rgb(17,17,17);}
+
+/* membership */
+.membership {margin: 0 0 56px 0;}
+.membership_logo {margin: 84px 55.5px 0 55.5px; position: relative;}
+.membership_buttons { width: 110px; height: 40px; border-radius: 20px; background-color: black; position: absolute; }
+.m_button_2 { width: 110px; height: 40px; border-radius: 20px; background-color: black; position: absolute; }
+
+.membership_buttons li a {color: white;}
+
+.membership_menu {display: flex; }
+
+.m_menu_ul li {margin: 0 0 12px 0 ;}
+.membership_menu ul li a {color: rgb(117, 117, 117); font-size: 16px; font-weight: 500; line-height: 24px; }
+
+.m_menu_title li {margin: 0 0 24px 0;}
