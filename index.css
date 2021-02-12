@@ -1,228 +1,67 @@
-/* Main Visual css*/
 
-.main_visual_wrap {
-  width: 100%;
-  padding: 0 48px;
+
+/* main banner */
+
+.main_banner {height: 58px; padding: 10px 0 0 0; text-align: center;}
+.main_banner p {font-size: 14px; line-height: 14px;}
+.main_banner a {font-family: 'Noto Sans KR'; font-size: 12px; text-decoration: underline; font-weight: 500;}
+
+/* <!-- nike video (first page) --> */
+
+.hero_video_wrap {width: 100%; height:900px; padding: 0 56px; overflow: hidden; position: relative; }
+.hero_video {width: 100%; } 
+/* .hero_video {width: 100%; margin: -90px 0 0 0;} */
+
+.hero_video_text {position: absolute; top:36px; right: 316px; bottom: 0; left: 36px; display: block;  padding: 0 56px;  }
+.hero_video_title {margin: 0 0 8px 0; text-align: left; font-family: 'Nike Futura';}
+.hero_video_sub {text-align: left;}
+
+.shop_button_black { background-color: rgb(17,17,17); color:white; margin: 24px 0 0 0; width: 95px; height: 40px;  line-height: 40px;border-radius: 20px; text-align: center; display: inline-block; }
+
+.hero_video_wrap a {display: block; width: clac(100%-112px); height: 100%; position:absolute;  top: 0; left: 56px;}
+
+/* nike slogan */
+.slogan_wrap {width: 100%; padding: 84px 48px;}
+.slogan {width: 100%; height: 500px; background-image: url(../img/nike-just-do-it.jpg) ; margin: 0 8px; }
+.slogan_button {}
+
+.shop_button_black { display:block;  background-color: rgb(17,17,17); color:white; margin: 24px 0 0 0; width: 95px; height: 40px;  line-height: 40px;border-radius: 20px; text-align: center; }
+
+/* .button_join_black { width: 112px; height: 40px; background-color: rgb(17,17,17); color:white; border-radius: 20px; text-align: center; line-height: 40px; border: none; transition: background-color 0.3s;}  */
+
+/* Main Visual CSS */
+
+.main_visual_wrap { width: 100%; padding: 0 48px;}
+.main_visual { width: 100%; padding: 0 8px; display: flex;}
+
+.main_visual_1 { width: 50%; height: 900px; background-image: url(../img/nike-just-do-it-1.png); padding: 36px; display: flex; flex-direction: column; justify-content: flex-end;
+}
+.main_visual_1:hover { cursor: pointer;}
+
+.main_visual_2 { width: 50%; height: 900px; background-image: url(../img/nike-just-do-it-2.png);
+padding: 36px; display: flex; flex-direction: column; justify-content: flex-end; align-items: flex-end;
 }
 
-.main_visual {
-  width: 100%;
-  padding: 0 8px;
-  display: flex;
-}
+.button_shop_white {display: block;
+    width: 95px; height: 40px; background-color: white; color:rgb(17,17,17); border-radius: 20px; text-align: center; line-height: 40px; 
+   border: none;}  
 
-.main_visual_1 {
-  width: 50%;
-  height: 900px;
-  background-image: url(../img/nike-just-do-it.png);
-  padding: 36px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
+.button_shop_white:hover { background-color: rgba(255,255,255,0.6);}
 
-.main_visual_1:hover {
-  cursor: pointer;
-}
+.button_shop_black { display: block;
+   width: 95px; height: 40px; background-color: rgb(17,17,17); color:white; border-radius: 20px; text-align: center; line-height: 40px; border: none;}  
 
-.main_visual_2 {
-  width: 50%;
-  height: 900px;
-  background-image: url(../img/nike-just-do-it_2.png);
-  padding: 36px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: flex-end;
-}
+.button_shop_black:hover { background-color: rgba(0,0,0,0.6);}
 
-.button_shop_white {
-  width: 100px;
-  height: 40px;
-  background-color: white;
-  color: rgb(17, 17, 17);
-  border-radius: 20px;
-  text-align: center;
-  line-height: 40px;
-  border: none;
-}
+/* just in  */
 
-.button_shop_white:hover {
-  background-color: rgba(255, 255, 255, 0.6);
-}
+.just_in_wrap {width: 100%; padding: 84px  56px 0 56px;}
 
-/* Main Just In */
-.just_in_wrap {
-  width: 100%;
-  padding: 84px 48px 0;
-}
+.just_in_wrap h2 {margin: 0 0 24px 0;   }
 
-.just_in {
-  width: 100%;
-  padding: 0;
-  display: flex;
-}
+.just_in  { background-image: url(../img/just_in.jpg); width:100%; display: flex; height: 900px; position: relative;}
 
-.just_in_1 {
-  width: calc(50% - 16px);
-  height: 700px;
-  background-image: url(../img/just-in.jpg);
-  margin: 0 8px;
-}
+.just_in_text {position: absolute; left: 36px; bottom: 36px;}
 
-.just_in_1_a {
-  display: block;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding: 36px;
-}
+.just_in_text a { padding: 8px 24px; }
 
-.just_in_2 {
-  width: calc(50% - 16px);
-  height: 700px;
-  background-image: url(../img/just-in-2.jpg);
-  margin: 0 8px;
-}
-
-.just_in_2_a {
-  display: block;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding: 36px;
-}
-
-.button_shop_black {
-  width: 100px;
-  height: 40px;
-  background-color: rgb(17, 17, 17);
-  color: white;
-  border-radius: 20px;
-  text-align: center;
-  line-height: 40px;
-  border: none;
-}
-
-.button_shop_black:hover {
-  background-color: rgba(17, 17, 17, 0.6);
-}
-
-/* Main Footwear */
-.footwear_wrap {
-  width: 100%;
-  padding: 84px 48px 0;
-}
-
-.footwear {
-  width: 100%;
-  padding: 0 8px;
-  display: flex;
-}
-
-.footwear_1 {
-  width: 100%;
-  height: 700px;
-  background-image: url(../img/footwear.jpg);
-  padding: 36px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
-
-.footwear_1:hover {
-  cursor: pointer;
-}
-
-.button_shop_white {
-  width: 100px;
-  height: 40px;
-  background-color: white;
-  color: rgb(17, 17, 17);
-  border-radius: 20px;
-  text-align: center;
-  line-height: 40px;
-  border: none;
-}
-
-.button_shop_white:hover {
-  background-color: rgba(255, 255, 255, 0.6);
-}
-
-/* Main Trending Now */
-
-.trending_now_wrap {
-  width: 100%;
-  height: auto;
-  padding: 84px 48px 0;
-}
-
-.trending_now {
-  width: 100;
-  display: flex;
-}
-
-.trending_now_1 {
-  width: calc(50% - 16px);
-  margin: 0 8px;
-  background-image: url(../img/trending_now.jpg);
-}
-
-.trending_now_1_a {
-  display: block;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding: 36px;
-}
-.trending_now_1_a:hover {
-  background-color: rgba(0, 0, 0, 0.2);
-}
-
-.trending_now_2 {
-  width: calc(50% - 16px);
-  margin: 0 8px;
-  height: 700px;
-  background-image: url(../img/trending_now_2.jpg);
-}
-
-.trending_now_2_a {
-  display: block;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding: 36px;
-}
-
-.trending_now_2_a:hover {
-  background-color: rgba(0, 0, 0, 0.2);
-}
-
-/* Main Gear fot Your Goals */
-.gear_wrap {
-  width: 100%;
-  padding: 84px 48px;
-}
-
-.gear {
-  width: 100%;
-  display: flex;
-}
-
-.gear li {
-  width: calc(33.3333% - 16px);
-  margin: 0 8px;
-}
-
-.gear li img {
-  width: 100%;
-  margin: 0 0 16px;
-}
