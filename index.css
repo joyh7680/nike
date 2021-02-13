@@ -65,3 +65,23 @@ padding: 36px; display: flex; flex-direction: column; justify-content: flex-end;
 
 .just_in_text a { padding: 8px 24px; }
 
+/* trending now */
+
+.trending_now_wrap {width: 100%;  padding: 84px 48px;}
+
+.trending_now {display: flex; width: 100%;}
+
+.trending_now_1 {background-image: url(../img/trending_now_1.jpg); width: calc(50% - 16px); height: 700px; margin: 0 8px; }
+
+.trending_now_1 a {display: block; padding: 36px;display: flex; flex-direction: column; justify-content: flex-end; width: 100%; height: 100%; }
+
+.button_shop_white {margin: 24px 0 0; }
+
+/* .button_shot_wht {margin: 24px 0 0; background-color: rgba(255,255,255,0.75); color: rgb(17,17,17,); border-radius: 20px; width: 95px; height: 40px; text-align: center; line-height: 40px; border: none; } */
+
+.trending_now_2 {background-image: url(../img/trending_now_2.jpg); width: calc(50% - 16px); height: 700px; margin: 0 8px;}
+
+.trending_now_2 a {display: block; padding: 36px;display: flex; flex-direction: column; justify-content: flex-end; width: 100%; height: 100%; }
+
+.button_shop_black  {margin: 24px 0 0; }
+
