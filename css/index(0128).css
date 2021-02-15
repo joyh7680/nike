@@ -45,7 +45,6 @@ padding: 36px; display: flex; flex-direction: column; justify-content: flex-end;
 }
 .footwear_1:hover { cursor: pointer;}
 
-
 /* Trending Now */
 
 .trending_now_wrap { width: 100%; padding: 84px 48px; }
